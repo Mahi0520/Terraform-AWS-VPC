@@ -1,4 +1,6 @@
-MyLoadBalancer:
+---
+Resources:
+  MyLoadBalancer:
     Type: AWS::ElasticLoadBalancing::LoadBalancer
     Properties:
       AvailabilityZones:
