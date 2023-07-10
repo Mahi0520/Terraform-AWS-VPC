@@ -4,7 +4,7 @@ Resources:
     Type: AWS::ElasticLoadBalancing::LoadBalancer
     Properties:
       AvailabilityZones:
-      - "us-east-2a"
+      - "ap-south-1"
       CrossZone: true
       Listeners:
       - InstancePort: '80'
