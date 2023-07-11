@@ -1,4 +1,4 @@
-service: Venkat-may20
+service: may20
 frameworkVersion: '3'
 configValidationMode: error
 provider:
