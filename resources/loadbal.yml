@@ -13,7 +13,7 @@ Resources:
         Protocol: HTTPS
         PolicyNames: 
         - My-SSLNegotiation-Policy
-        SSLCertificateId: arn:aws:iam::603672719972:role/julyowner
+        # SSLCertificateId: arn:aws:iam::603672719972:role/julyowner
       HealthCheck:
         Target: HTTP:80/
         HealthyThreshold: '2'
