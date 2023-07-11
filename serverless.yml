@@ -4,10 +4,10 @@ configValidationMode: error
 provider:
   name: aws
   deploymentMethod: direct
-  region: ap-south-1
+  region: ap-south-1a
   deploymentPrefix: infra
 
 resources:
   - ${file(./resources/ec2.yml)}
   - ${file(./resources/s3.yml)}
-  - ${file(./resources/loadbal.yml)}
+  # - ${file(./resources/loadbal.yml)}
